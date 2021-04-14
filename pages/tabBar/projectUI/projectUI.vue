@@ -53,6 +53,9 @@
 					pages: [{
 						name: '宫格可滑动菜单',
 						key: 'base-grid-swiper'
+					}, {
+						name: '宫格不可滑动菜单——基本菜单',
+						key: 'base-menu'
 					}, ],
 				}, ],
 			};
@@ -73,29 +76,29 @@
 		// #endif
 
 		// #ifdef H5
-		watch: {
-			$route: {
-				immediate: true,
-				handler(newRoute) {
-					if (newRoute.matched.length) {
-						this.setLeftWinActive(newRoute.path);
-						let path = newRoute.path.split("/")[3];
-						for (const item of this.list) {
-							if (Array.isArray(item.pages)) {
-								for (const page of item.pages) {
-									if (page === path) {
-										this.setActiveOpen(item.id);
-									}
-									if (page.url && page.url === newRoute.path) {
-										this.setActiveOpen(item.id);
-									}
-								}
-							}
-						}
-					}
-				},
-			},
-		},
+		// watch: {
+		// 	$route: {
+		// 		immediate: true,
+		// 		handler(newRoute) {
+		// 			if (newRoute.matched.length) {
+		// 				this.setLeftWinActive(newRoute.path);
+		// 				let path = newRoute.path.split("/")[3];
+		// 				for (const item of this.list) {
+		// 					if (Array.isArray(item.pages)) {
+		// 						for (const page of item.pages) {
+		// 							if (page === path) {
+		// 								this.setActiveOpen(item.id);
+		// 							}
+		// 							if (page.url && page.url === newRoute.path) {
+		// 								this.setActiveOpen(item.id);
+		// 							}
+		// 						}
+		// 					}
+		// 				}
+		// 			}
+		// 		},
+		// 	},
+		// },
 		// #endif
 		methods: {
 			...mapMutations([

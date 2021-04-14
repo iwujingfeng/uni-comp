@@ -354,7 +354,16 @@
 			}
 		}
 		// #endif
-	],
+	    ,{
+            "path" : "pages/projectUI/base-menu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"subPackages": [{
 			"root": "pages/API",
 			"pages": [{
