@@ -57,6 +57,24 @@
 						name: '宫格不可滑动菜单——基本菜单',
 						key: 'base-menu'
 					}, ],
+				}, {
+					// 下拉
+					id: "dropDown",
+					name: "下拉菜单",
+					open: false,
+					pages: [{
+						name: '城市下拉选择',
+						key: 'city-drop-down'
+					}, ],
+				}, {
+					// 搜索框
+					id: "search",
+					name: "搜索框",
+					open: false,
+					pages: [{
+						name: '简单搜索框',
+						key: 'base-search-input'
+					}, ],
 				}, ],
 			};
 		},

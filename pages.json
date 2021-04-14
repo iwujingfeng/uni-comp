@@ -354,16 +354,29 @@
 			}
 		}
 		// #endif
-	    ,{
-            "path" : "pages/projectUI/base-menu",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+		, {
+			"path": "pages/projectUI/base-menu",
+			"style": {
+				"navigationBarTitleText": "宫格不可滑动菜单——基本菜单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/city-drop-down",
+			"style": {
+				"navigationBarTitleText": "城市下拉菜单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-search-input",
+			"style": {
+				"navigationBarTitleText": "简单搜索框",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
 	"subPackages": [{
 			"root": "pages/API",
 			"pages": [{
