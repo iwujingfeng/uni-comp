@@ -79,75 +79,91 @@
 			}
 		},
 		{
-			"path": "pages/component/view/view",
+			"path": "pages/tabBar/projectUI/projectUI",
+			"style": {
+				"navigationBarTitleText": "项目组件",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/component/view",
 			"style": {
 				"navigationBarTitleText": "view"
 			}
 		},
 		{
-			"path": "pages/component/scroll-view/scroll-view",
+			"path": "pages/component/scroll-view",
 			"style": {
 				"navigationBarTitleText": "scroll-view"
 			}
 		},
 		{
-			"path": "pages/component/swiper/swiper",
+			"path": "pages/component/swiper",
 			"style": {
 				"navigationBarTitleText": "swiper"
 			}
 		},
 		// #ifndef MP-TOUTIAO
 		{
-			"path": "pages/component/cover-view/cover-view",
+			"path": "pages/component/cover-view",
 			"style": {
 				"navigationBarTitleText": "cover-view"
 			}
 		},
 		{
-			"path": "pages/component/movable-view/movable-view",
+			"path": "pages/component/movable-view",
 			"style": {
 				"navigationBarTitleText": "movable-view"
 			}
 		},
 		// #endif
 		{
-			"path": "pages/component/text/text",
+			"path": "pages/component/text",
 			"style": {
 				"navigationBarTitleText": "text"
 			}
 		},
 		{
-			"path": "pages/component/rich-text/rich-text",
+			"path": "pages/component/rich-text",
 			"style": {
 				"navigationBarTitleText": "rich-text"
 			}
 		},
 		{
-			"path": "pages/component/progress/progress",
+			"path": "pages/component/progress",
 			"style": {
 				"navigationBarTitleText": "progress"
 			}
 		},
 		{
-			"path": "pages/component/button/button",
+			"path": "pages/component/button",
 			"style": {
 				"navigationBarTitleText": "button"
 			}
 		},
 		{
-			"path": "pages/component/checkbox/checkbox",
+			"path": "pages/component/checkbox",
 			"style": {
 				"navigationBarTitleText": "checkbox"
 			}
 		},
 		{
-			"path": "pages/component/form/form",
+			"path": "pages/component/form",
 			"style": {
 				"navigationBarTitleText": "form"
 			}
 		},
 		{
-			"path": "pages/component/input/input",
+			"path": "pages/component/input",
 			"style": {
 				"navigationBarTitleText": "input",
 				"app-plus": {
@@ -156,50 +172,50 @@
 			}
 		},
 		{
-			"path": "pages/component/label/label",
+			"path": "pages/component/label",
 			"style": {
 				"navigationBarTitleText": "label"
 			}
 		},
 		{
-			"path": "pages/component/picker/picker",
+			"path": "pages/component/picker",
 			"style": {
 				"navigationBarTitleText": "picker"
 			}
 		},
 		{
-			"path": "pages/component/picker-view/picker-view",
+			"path": "pages/component/picker-view",
 			"style": {
 				"navigationBarTitleText": "picker-view"
 			}
 		},
 		{
-			"path": "pages/component/radio/radio",
+			"path": "pages/component/radio",
 			"style": {
 				"navigationBarTitleText": "radio"
 			}
 		},
 		{
-			"path": "pages/component/slider/slider",
+			"path": "pages/component/slider",
 			"style": {
 				"navigationBarTitleText": "slider"
 			}
 		},
 		{
-			"path": "pages/component/switch/switch",
+			"path": "pages/component/switch",
 			"style": {
 				"navigationBarTitleText": "switch"
 			}
 		},
 		{
-			"path": "pages/component/textarea/textarea",
+			"path": "pages/component/textarea",
 			"style": {
 				"navigationBarTitleText": "textarea"
 			}
 		},
 		// #ifdef APP-PLUS || MP-WEIXIN || H5
 		{
-			"path": "pages/component/editor/editor",
+			"path": "pages/component/editor",
 			"style": {
 				"navigationBarTitleText": "editor",
 				"app-plus": {
@@ -209,38 +225,44 @@
 		},
 		// #endif
 		{
-			"path": "pages/component/navigator/navigator",
+			"path": "pages/component/navigator",
 			"style": {
 				"navigationBarTitleText": "navigator"
 			}
 		},
 		{
-			"path": "pages/component/navigator/navigate/navigate",
+			"path": "pages/projectUI/base-grid-swiper",
+			"style": {
+				"navigationBarTitleText": "宫格分类可滑动"
+			}
+		},
+		{
+			"path": "pages/component/navigate",
 			"style": {
 				"navigationBarTitleText": "navigatePage"
 			}
 		},
 		{
-			"path": "pages/component/navigator/redirect/redirect",
+			"path": "pages/component/redirect",
 			"style": {
 				"navigationBarTitleText": "redirectPage"
 			}
 		},
 		{
-			"path": "pages/component/image/image",
+			"path": "pages/component/image",
 			"style": {
 				"navigationBarTitleText": "image"
 			}
 		},
 		{
-			"path": "pages/component/video/video",
+			"path": "pages/component/video",
 			"style": {
 				"navigationBarTitleText": "video"
 			}
 		},
 		// #ifndef MP-ALIPAY || MP-TOUTIAO
 		{
-			"path": "pages/component/audio/audio",
+			"path": "pages/component/audio",
 			"style": {
 				"navigationBarTitleText": "audio"
 			}
@@ -248,27 +270,27 @@
 		// #endif
 		// #ifndef MP-TOUTIAO
 		{
-			"path": "pages/component/map/map",
+			"path": "pages/component/map",
 			"style": {
 				"navigationBarTitleText": "map"
 			}
 		},
 		// #endif
 		{
-			"path": "pages/component/canvas/canvas",
+			"path": "pages/component/canvas",
 			"style": {
 				"navigationBarTitleText": "canvas"
 			}
 		},
 		{
-			"path": "pages/component/web-view/web-view",
+			"path": "pages/component/web-view",
 			"style": {
 				"navigationBarTitleText": "web-view"
 			}
 		},
 		// #ifndef H5 || MP-BAIDU || QUICKAPP-WEBVIEW
 		{
-			"path": "pages/component/ad/ad",
+			"path": "pages/component/ad",
 			"style": {
 				"navigationBarTitleText": "AD"
 			}
@@ -276,7 +298,7 @@
 		// #endif
 		// #ifdef APP-PLUS || H5
 		{
-			"path": "pages/component/web-view-local/web-view-local",
+			"path": "pages/component/web-view-local",
 			"style": {}
 		},
 		// #endif
@@ -1309,6 +1331,11 @@
 				"iconPath": "static/extui.png",
 				"selectedIconPath": "static/extuiHL.png",
 				"text": "uni-ui组件"
+			}, {
+				"pagePath": "pages/tabBar/projectUI/projectUI",
+				"iconPath": "static/extui.png",
+				"selectedIconPath": "static/extuiHL.png",
+				"text": "项目组件"
 			}, {
 				"pagePath": "pages/tabBar/template/template",
 				"iconPath": "static/template.png",
