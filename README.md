@@ -1,6 +1,6 @@
 # hello-uniapp
 
-`uni-app`框架示例，一套代码，同时发行到iOS、Android、H5、小程序等多个平台，请使用手机扫码快速体验`uni-app`的强大功能。
+`uni-comp`是uni-app组件库的汇总，集结了项目开发中常用的组件。
 
 <div class="quick">
     <h3 id="快速体验"><a href="/README?id=%e5%bf%ab%e9%80%9f%e4%bd%93%e9%aa%8c" data-id="快速体验" class="anchor"><span>快速体验</span></a></h3>
