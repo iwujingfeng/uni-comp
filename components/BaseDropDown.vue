@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<view @click="showShadow" class="dropWrap">
-			<image class="suffix" src="../static/location-city.png" mode="widthFix"></image>
+			<image class="suffix" src="../static/location.png" mode="widthFix"></image>
 			<text class="text">{{ list[current] }}</text>
 			<image class="icon" src="../static/arrow-b.png" mode="widthFix"></image>
 		</view>

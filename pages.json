@@ -375,8 +375,38 @@
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/projectUI/base-swiper",
+			"style": {
+				"navigationBarTitleText": "简单轮播图",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-bubble",
+			"style": {
+				"navigationBarTitleText": "可操作的气泡列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-tab-center",
+			"style": {
+				"navigationBarTitleText": "居中对齐的Tab",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	],
+	    ,{
+            "path" : "pages/projectUI/base-navbar1",
+            "style" :
+            {
+                "navigationBarTitleText": "返回图标 + 标题 + 下划线",
+                "enablePullDownRefresh": false
+            }
+
+        }
+    ],
 	"subPackages": [{
 			"root": "pages/API",
 			"pages": [{
