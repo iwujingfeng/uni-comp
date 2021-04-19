@@ -25,7 +25,7 @@
 		<!-- 添加button -->
 		<slot name="button"></slot>
 		<view class="close" @click="$emit('close')">
-			<image src="../static/staff/close-icon.png"></image>
+			<image src="../static/close-icon.png"></image>
 		</view>
 	</view>
 </template>

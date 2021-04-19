@@ -58,6 +58,21 @@
 						key: 'base-popup'
 					}, ],
 				}, {
+					// 标题栏
+					id: "title",
+					name: "标题栏 Title",
+					open: false,
+					pages: [{
+						name: '常规标题',
+						key: 'base-title-1'
+					}, {
+						name: '带图片的标题',
+						key: 'base-title-2'
+					}, {
+						name: '带下划线的标题',
+						key: 'base-title-3'
+					}],
+				}, {
 					// 分类菜单
 					id: "menu",
 					name: "分类菜单 Menu",
@@ -69,11 +84,17 @@
 						name: '宫格不可滑动菜单——基本菜单',
 						key: 'base-menu'
 					}, {
+						name: '九宫格菜单',
+						key: 'base-menu-9'
+					}, {
+						name: '带有徽章的菜单',
+						key: 'base-menu-b'
+					}, {
 						name: '侧边栏分类-单选',
-						key: 'base-menu'
+						key: 'base-menu-side'
 					}, {
 						name: '侧边栏分类-多选',
-						key: 'base-menu'
+						key: 'base-menu-side-m'
 					}, ],
 				}, {
 					// 下拉
@@ -83,6 +104,18 @@
 					pages: [{
 						name: '城市下拉选择',
 						key: 'city-drop-down'
+					}, ],
+				}, {
+					// 选择器
+					id: "picker",
+					name: "选择器 Picker",
+					open: false,
+					pages: [{
+						name: '时间选择器1',
+						key: 'time-picker-1'
+					}, {
+						name: '地区选择器1',
+						key: 'area-picker-1'
 					}, ],
 				}, {
 					// 搜索框
@@ -101,6 +134,9 @@
 					pages: [{
 						name: '简单轮播图',
 						key: 'base-swiper'
+					}, {
+						name: '轮播图带Dot',
+						key: 'base-swiper-dot'
 					}, ],
 				}, {
 					// 气泡弹出框
@@ -134,6 +170,18 @@
 					pages: [{
 						name: '居中对齐的Tab',
 						key: 'base-tab-center'
+					}, {
+						name: '可滚动的Tab',
+						key: 'base-tab-scroll'
+					}, {
+						name: '下划线三等分的Tab',
+						key: 'base-tab-line'
+					}, {
+						name: '带背景色的Tab',
+						key: 'base-tab-bg'
+					}, {
+						name: '下划线与文字等宽的Tab',
+						key: 'base-tab-line-1'
 					}, ],
 				}, {
 					// 顶部导航
@@ -168,8 +216,14 @@
 					name: "瀑布流 Waterfall",
 					open: false,
 					pages: [{
-						name: '瀑布流实现一',
-						key: 'base-waterfall'
+						name: '瀑布流1',
+						key: 'waterfall-1'
+					}, {
+						name: '瀑布流2',
+						key: 'waterfall-2'
+					}, {
+						name: '瀑布流3',
+						key: 'waterfall-3'
 					}, ],
 				}, {
 					// 缺省页
@@ -204,11 +258,20 @@
 					name: "信息栏 Info",
 					open: false,
 					pages: [{
-						name: '头像信息栏一',
+						name: '通用头像信息栏',
+						key: 'base-info'
+					}, {
+						name: '头像信息栏1',
 						key: 'base-avatar-info'
+					}, {
+						name: '钱包信息栏1',
+						key: 'base-money-info'
+					}, {
+						name: '钱包信息栏2',
+						key: 'base-money-info2'
 					}, ],
 				}, {
-					// 列表项
+					// 列表与列表项
 					id: "list",
 					name: "列表-列表项 List",
 					open: false,
@@ -216,7 +279,19 @@
 						name: '列表项一',
 						key: 'base-list'
 					}, {
-						name: '索引列表一',
+						name: '列表1',
+						key: 'base-list1'
+					}, {
+						name: '列表2',
+						key: 'base-list2'
+					}, {
+						name: '列表3',
+						key: 'base-list3'
+					}, {
+						name: '列表4',
+						key: 'base-list4'
+					}, {
+						name: '索引列表1',
 						key: 'base-index'
 					}, ],
 				}, {
@@ -226,7 +301,37 @@
 					open: false,
 					pages: [{
 						name: '单行两列',
-						key: 'base-list'
+						key: 'base-ceil'
+					}, {
+						name: '单行三列',
+						key: 'base-ceil-3'
+					}, {
+						name: '多行多列1',
+						key: 'base-ceil-m'
+					}, {
+						name: '多行多列2',
+						key: 'base-ceil-m2'
+					}, {
+						name: '多行多列3',
+						key: 'base-ceil-m3'
+					}, {
+						name: '两行两列',
+						key: 'base-ceil-5'
+					}, {
+						name: '两行两列（带图标、按钮）',
+						key: 'base-ceil-6'
+					}, {
+						name: '两行三列',
+						key: 'base-ceil-4'
+					}, {
+						name: '使用Ceil组件',
+						key: 'base-ceil-c'
+					}, {
+						name: '使用Ceil组件1',
+						key: 'base-ceil-c1'
+					}, {
+						name: 'Ceil1',
+						key: 'base-ceil-1'
 					}, ],
 				}, {
 					// 上传
@@ -243,8 +348,23 @@
 					name: "表单输入 Input",
 					open: false,
 					pages: [{
-						name: '图片上传一',
-						key: 'base-image-upload'
+						name: '单行输入',
+						key: 'base-input'
+					}, {
+						name: '多行输入',
+						key: 'base-textarea'
+					}, {
+						name: '设置页表单',
+						key: 'form-set'
+					}, {
+						name: '表单模板1',
+						key: 'form-temp-1'
+					}, {
+						name: '表单模板2',
+						key: 'form-temp-2'
+					}, {
+						name: '充值表单',
+						key: 'form-temp-3'
 					}, ],
 				}, {
 					// 单选框
@@ -270,8 +390,11 @@
 					name: "步骤条 Step",
 					open: false,
 					pages: [{
-						name: '图片上传一',
-						key: 'base-image-upload'
+						name: '步骤条1',
+						key: 'step-1'
+					}, {
+						name: '步骤条2-(生产力协会)',
+						key: 'step-2'
 					}, ],
 				}, {
 					// 时间线
@@ -288,9 +411,12 @@
 					name: "按钮 Button",
 					open: false,
 					pages: [{
-						name: '图片上传一',
-						key: 'base-image-upload'
-					}, ],
+						name: '按钮',
+						key: 'base-button'
+					}, {
+						name: '按钮组',
+						key: 'base-button-group'
+					}],
 				}, {
 					// 加载状态
 					id: "loading",
@@ -344,6 +470,15 @@
 					pages: [{
 						name: '地址选择',
 						key: 'base-address-select'
+					}, {
+						name: '地址栏',
+						key: 'base-address-bar1'
+					}, {
+						name: '地址列表（含删除）',
+						key: 'address-list-1'
+					}, {
+						name: '新增地址1',
+						key: 'address-add-1'
 					}, ],
 				}, {
 					// 银行卡
@@ -360,8 +495,17 @@
 					name: "优惠券 Coupon",
 					open: false,
 					pages: [{
-						name: '地址选择',
-						key: 'base-address-select'
+						name: '优惠券样式1',
+						key: 'base-coupon-1'
+					}, {
+						name: '优惠券样式2',
+						key: 'base-coupon-2'
+					}, {
+						name: '优惠券样式3',
+						key: 'base-coupon-3'
+					}, {
+						name: '优惠券样式4',
+						key: 'base-coupon-4'
 					}, ],
 				}, {
 					// 业务组件
@@ -381,14 +525,47 @@
 						name: '购物车 Cart',
 						key: 'base-address-select'
 					}, {
-						name: '商品规格 Sku',
-						key: 'base-address-select'
+						name: '订单确认页1 Order-Submit',
+						key: 'order-submit-1'
 					}, {
-						name: '商品规格 Sku',
-						key: 'base-address-select'
+						name: '订单列表页1 Order-List',
+						key: 'order-list-1'
 					}, {
-						name: '商品规格 Sku',
-						key: 'base-address-select'
+						name: '订单详情页2 Order-Detail',
+						key: 'order-detail-2'
+					}, {
+						name: '商品列表1',
+						key: 'goos-list1'
+					}, {
+						name: '商品列表2',
+						key: 'goos-list2'
+					}, {
+						name: '订单详情信息1',
+						key: 'order-detail-1'
+					}, {
+						name: '购物车1',
+						key: 'order-cart-1'
+					}, {
+						name: '商品详情页1',
+						key: 'goods-detail-1'
+					}, ],
+				}, {
+					// 模板页面
+					id: "template",
+					name: "模板页面 Template",
+					open: false,
+					pages: [{
+						name: '新闻详情页1',
+						key: 'detail-1'
+					}, {
+						name: '搜索页1',
+						key: 'search-1'
+					}, {
+						name: '扫码界面1',
+						key: 'scan-1'
+					},{
+						name: '消息列表1',
+						key: 'message-list-1'
 					}, ],
 				}, ],
 			};

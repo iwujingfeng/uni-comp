@@ -1,6 +1,7 @@
 <template>
 	<view>
-		<BaseSwiper :list="swiperList" ratio="0.36232" :show-dot="false" @change="onSwiperChange"></BaseSwiper>
+		<BaseSwiper :list="swiperList" ratio="0.36232" :show-dot="false":radius="true" @change="onSwiperChange"></BaseSwiper>
+		<BaseSwiper :list="swiperList" ratio="0.36232"  @change="onSwiperChange"></BaseSwiper>
 	</view>
 </template>
 

@@ -84,12 +84,12 @@
     	display: flex;
     	align-items: flex-end;
 			font-weight: bold;
-    
+
     	.unit {
     		font-size: 24upx;
     	}
     }
-    
+
     .raw-price {
     	font-size: 24upx;
     	text-decoration: line-through;

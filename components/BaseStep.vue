@@ -4,7 +4,7 @@
 			<view class="wrap">
 				<view class="item-on" v-if="current==1">
 					<view class="inner">
-						<image class="finish-icon" src="../static/finish.png" mode="widthFix" v-if="finishStep==1"></image>
+						<image class="finish-icon" src="@/static/finish.png" mode="widthFix" v-if="finishStep==1"></image>
 						<text class="number" v-else>1</text>
 					</view>
 				</view>
@@ -16,14 +16,14 @@
 		</view>
 
 		<view class="step-line">
-			<image class="arrow" src="../static/step-arrow.png" mode="widthFix" v-if="finishStep==1"></image>
-			<image class="line" src="../static/step-line.png" mode="widthFix" v-else></image>
+			<image class="arrow" src="@/static/step-arrow.png" mode="widthFix" v-if="finishStep==1"></image>
+			<image class="line" src="@/static/step-line.png" mode="widthFix" v-else></image>
 		</view>
 		<view class="option">
 			<view class="wrap">
 				<view class="item-on" v-if="current==2">
 					<view class="inner">
-						<image class="finish-icon" src="../static/finish.png" mode="widthFix" v-if="finishStep==2"></image>
+						<image class="finish-icon" src="@/static/finish.png" mode="widthFix" v-if="finishStep==2"></image>
 						<text class="number" v-else>2</text>
 					</view>
 				</view>
@@ -34,14 +34,14 @@
 			<text class="step-des">商家审核</text>
 		</view>
 		<view class="step-line">
-			<image class="arrow" src="../static/step-arrow.png" mode="widthFix" v-if="finishStep==2"></image>
-			<image class="line" src="../static/step-line.png" mode="widthFix" v-else></image>
+			<image class="arrow" src="@/static/step-arrow.png" mode="widthFix" v-if="finishStep==2"></image>
+			<image class="line" src="@/static/step-line.png" mode="widthFix" v-else></image>
 		</view>
 		<view class="option">
 			<view class="wrap">
 				<view class="item-on" v-if="current==3">
 					<view class="inner">
-						<image class="finish-icon" src="../static/finish.png" mode="widthFix" v-if="finishStep==3"></image>
+						<image class="finish-icon" src="@/static/finish.png" mode="widthFix" v-if="finishStep==3"></image>
 						<text class="number" v-else>3</text>
 					</view>
 				</view>
@@ -52,14 +52,14 @@
 			<text class="step-des">平台审核</text>
 		</view>
 		<view class="step-line">
-			<image class="arrow" src="../static/step-arrow.png" mode="widthFix" v-if="finishStep==3"></image>
-			<image class="line" src="../static/step-line.png" mode="widthFix" v-else></image>
+			<image class="arrow" src="@/static/step-arrow.png" mode="widthFix" v-if="finishStep==3"></image>
+			<image class="line" src="@/static/step-line.png" mode="widthFix" v-else></image>
 		</view>
 		<view class="option">
 			<view class="wrap">
 				<view class="item-on" v-if="current==4">
 					<view class="inner">
-						<image class="finish-icon" src="../static/finish.png" mode="widthFix" v-if="finishStep==4"></image>
+						<image class="finish-icon" src="@/static/finish.png" mode="widthFix" v-if="finishStep==4"></image>
 						<text class="number" v-else>4</text>
 					</view>
 				</view>

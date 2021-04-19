@@ -16,6 +16,13 @@
 
 /*通用 */
 
+/* 去掉scroll-view滚动条 */
+scroll-view ::-webkit-scrollbar {
+	display: none;
+}
+.border-none {
+	border: none !important;
+}
 /* view{
 	font-size:28rpx;
 	line-height:1.8;

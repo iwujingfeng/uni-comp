@@ -42,7 +42,7 @@
 		getTimeArray,
 		addZero,
 		getIndexOfArray
-	} from './uitls/util.js'
+	} from './util.js'
 	export default {
 		name: 'jp-timePicker',
 		props: {

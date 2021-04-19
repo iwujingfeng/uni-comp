@@ -396,15 +396,447 @@
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/projectUI/base-navbar1",
+			"style": {
+				"navigationBarTitleText": "返回图标 + 标题 + 下划线",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-tab-scroll",
+			"style": {
+				"navigationBarTitleText": "可滚动的Tab",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-swiper-dot",
+			"style": {
+				"navigationBarTitleText": "轮播图带Dot",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-address-bar1",
+			"style": {
+				"navigationBarTitleText": "地址栏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-list1",
+			"style": {
+				"navigationBarTitleText": "列表1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-list2",
+			"style": {
+				"navigationBarTitleText": "列表2",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-tab-line",
+			"style": {
+				"navigationBarTitleText": "下划线三等分的Tab",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil",
+			"style": {
+				"navigationBarTitleText": "单行两列",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-m",
+			"style": {
+				"navigationBarTitleText": "多行多列",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-button",
+			"style": {
+				"navigationBarTitleText": "圆角按钮",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-c",
+			"style": {
+				"navigationBarTitleText": "使用Ceil组件",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-menu-9",
+			"style": {
+				"navigationBarTitleText": "九宫格菜单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-menu-b",
+			"style": {
+				"navigationBarTitleText": "带有徽章的菜单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-avatar-info",
+			"style": {
+				"navigationBarTitleText": "头像信息栏一",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-money-info",
+			"style": {
+				"navigationBarTitleText": "钱包信息栏一",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-coupon-1",
+			"style": {
+				"navigationBarTitleText": "优惠券样式1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/order-submit-1",
+			"style": {
+				"navigationBarTitleText": "订单确认页1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-textarea",
+			"style": {
+				"navigationBarTitleText": "多行输入",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-1",
+			"style": {
+				"navigationBarTitleText": "Ceil1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-c1",
+			"style": {
+				"navigationBarTitleText": "使用Ceil组件1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-info",
+			"style": {
+				"navigationBarTitleText": "通用头像信息栏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-image-grid",
+			"style": {
+				"navigationBarTitleText": "图片九宫格",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-3",
+			"style": {
+				"navigationBarTitleText": "单行三列",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-money-info2",
+			"style": {
+				"navigationBarTitleText": "钱包信息栏2",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-m2",
+			"style": {
+				"navigationBarTitleText": "多行多列2",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-m3",
+			"style": {
+				"navigationBarTitleText": "多行多列3",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-list3",
+			"style": {
+				"navigationBarTitleText": "列表3",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-tab-bg",
+			"style": {
+				"navigationBarTitleText": "带背景色的Tab",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/goos-list1",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-menu-side",
+			"style": {
+				"navigationBarTitleText": "侧边栏分类-单选",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/order-detail-1",
+			"style": {
+				"navigationBarTitleText": "订单详情信息1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-button-group",
+			"style": {
+				"navigationBarTitleText": "按钮组",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/form-set",
+			"style": {
+				"navigationBarTitleText": "设置页表单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/detail-1",
+			"style": {
+				"navigationBarTitleText": "新闻详情页1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/step-1",
+			"style": {
+				"navigationBarTitleText": "步骤条1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-input",
+			"style": {
+				"navigationBarTitleText": "单行输入",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-title-2",
+			"style": {
+				"navigationBarTitleText": "带图片的标题",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-list4",
+			"style": {
+				"navigationBarTitleText": "列表4",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-4",
+			"style": {
+				"navigationBarTitleText": "两行三列",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-5",
+			"style": {
+				"navigationBarTitleText": "两行两列",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-ceil-6",
+			"style": {
+				"navigationBarTitleText": "两行两列（带图标、按钮）",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/search-1",
+			"style": {
+				"navigationBarTitleText": "搜索页1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/order-cart-1",
+			"style": {
+				"navigationBarTitleText": "购物车1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/waterfall-1",
+			"style": {
+				"navigationBarTitleText": "瀑布流1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/address-list-1",
+			"style": {
+				"navigationBarTitleText": "地址列表（含删除）",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/address-add-1",
+			"style": {
+				"navigationBarTitleText": "新增地址1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/goods-detail-1",
+			"style": {
+				"navigationBarTitleText": "商品详情页1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/form-temp-1",
+			"style": {
+				"navigationBarTitleText": "表单模板1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-coupon-2",
+			"style": {
+				"navigationBarTitleText": "优惠券样式2",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-coupon-3",
+			"style": {
+				"navigationBarTitleText": "优惠券样式3",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/time-picker-1",
+			"style": {
+				"navigationBarTitleText": "时间选择器1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/base-coupon-4",
+			"style": {
+				"navigationBarTitleText": "优惠券样式4",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/order-list-1",
+			"style": {
+				"navigationBarTitleText": "订单列表页1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/order-detail-2",
+			"style": {
+				"navigationBarTitleText": "订单详情页2",
+				"enablePullDownRefresh": false
+			}
+
 		}
 	    ,{
-            "path" : "pages/projectUI/base-navbar1",
+            "path" : "pages/projectUI/base-tab-line-1",
             "style" :
             {
-                "navigationBarTitleText": "返回图标 + 标题 + 下划线",
+                "navigationBarTitleText": "下划线与文字等宽的Tab",
                 "enablePullDownRefresh": false
             }
 
+        }
+        ,{
+            "path" : "pages/projectUI/goos-list2",
+            "style" :
+            {
+                "navigationBarTitleText": "商品列表2",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/projectUI/form-temp-3",
+            "style" :
+            {
+                "navigationBarTitleText": "充值表单",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/projectUI/waterfall-2",
+            "style" :
+            {
+                "navigationBarTitleText": "瀑布流2",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/projectUI/waterfall-3",
+            "style" :
+            {
+                "navigationBarTitleText": "瀑布流3",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/projectUI/scan-1",
+            "style" :
+            {
+                "navigationBarTitleText": "扫码界面1",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/projectUI/message-list-1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "message-list-1",
+                "enablePullDownRefresh": false
+            }
+            
         }
     ],
 	"subPackages": [{
