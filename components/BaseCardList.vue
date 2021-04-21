@@ -15,34 +15,6 @@
 					<text>已兑13.3万件</text>
 				</view>
 			</view>
-			<view class="item" @click="clickItem(item)">
-				<image class="cover-image" :class="{'img-redius':hasRedius}" :style="{height:coverImageHeight + 'px'}" src="@/static/test/goods-cover-test.png"></image>
-				<view class="title ellipsis"><text>氨基酸净润平衡洁面乳</text></view>
-				<view class="sub-title-wrap">
-					<view class="left">
-						<text class="bold">5360</text>
-						<text>积分</text>
-					</view>
-					<text class="right">8516积分</text>
-				</view>
-				<view class="des">
-					<text>已兑13.3万件</text>
-				</view>
-			</view>
-			<view class="item" @click="clickItem(item)">
-				<image class="cover-image" :class="{'img-redius':hasRedius}" :style="{height:coverImageHeight + 'px'}" src="@/static/test/goods-cover-test.png"></image>
-				<view class="title ellipsis"><text>氨基酸净润平衡洁面乳</text></view>
-				<view class="sub-title-wrap">
-					<view class="left">
-						<text class="bold">5360</text>
-						<text>积分</text>
-					</view>
-					<text class="right">8516积分</text>
-				</view>
-				<view class="des">
-					<text>已兑13.3万件</text>
-				</view>
-			</view>
 		</view>
 	</view>
 </template>

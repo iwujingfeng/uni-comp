@@ -293,6 +293,9 @@
 					}, {
 						name: '索引列表1',
 						key: 'base-index'
+					}, {
+						name: '卡片列表1',
+						key: 'card-list'
 					}, ],
 				}, {
 					// 单元格
@@ -365,7 +368,16 @@
 					}, {
 						name: '充值表单',
 						key: 'form-temp-3'
-					}, ],
+					}, {
+						name: '意见反馈表单1',
+						key: 'feedback'
+					},{
+						name: '意见反馈表单2',
+						key: 'feedback2'
+					}, {
+						name: '账号与安全 Switch切换-1',
+						key: 'switch-1'
+					},],
 				}, {
 					// 单选框
 					id: "radio",
@@ -563,10 +575,19 @@
 					}, {
 						name: '扫码界面1',
 						key: 'scan-1'
-					},{
-						name: '消息列表1',
+					}, {
+						name: '消息通知列表1',
 						key: 'message-list-1'
-					}, ],
+					}, {
+						name: '消息通知列表2',
+						key: 'message-list-2'
+					}, {
+						name: '消息通知列表3',
+						key: 'message-list-3'
+					}, {
+						name: '关于我们1',
+						key: 'about-us-1'
+					},],
 				}, ],
 			};
 		},

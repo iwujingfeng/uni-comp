@@ -831,9 +831,68 @@
         }
         ,{
             "path" : "pages/projectUI/message-list-1",
+            "style" :
+            {
+                "navigationBarTitleText": "消息通知列表1",
+                "enablePullDownRefresh": false
+            }
+
+        }
+		,{
+		    "path" : "pages/projectUI/message-list-2",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "消息通知列表2",
+		        "enablePullDownRefresh": false
+		    }
+
+		}
+		,{
+		    "path" : "pages/projectUI/message-list-3",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "消息通知列表3",
+		        "enablePullDownRefresh": false
+		    }
+
+		}
+        ,{
+            "path" : "pages/projectUI/card-list",
+            "style" :
+            {
+                "navigationBarTitleText": "卡片列表",
+                "enablePullDownRefresh": false
+            }
+
+        },{
+            "path" : "pages/projectUI/feedback",
+            "style" :
+            {
+                "navigationBarTitleText": "意见反馈表单1",
+                "enablePullDownRefresh": false
+            }
+        },{
+            "path" : "pages/projectUI/feedback2",
+            "style" :
+            {
+                "navigationBarTitleText": "意见反馈表单2",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/projectUI/about-us-1",
+            "style" :
+            {
+                "navigationBarTitleText": "关于我们1",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/projectUI/switch-1",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "message-list-1",
+                "navigationBarTitleText": "账号与安全 Switch切换-1",
                 "enablePullDownRefresh": false
             }
             
