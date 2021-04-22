@@ -291,12 +291,27 @@
 						name: '列表4',
 						key: 'base-list4'
 					}, {
-						name: '索引列表1',
-						key: 'base-index'
-					}, {
 						name: '卡片列表1',
 						key: 'card-list'
 					}, ],
+				}, {
+					// 列表与列表项
+					id: "index",
+					name: "索引列表 Index",
+					open: false,
+					pages: [{
+						name: '索引列表1',
+						key: 'base-index'
+					}, {
+						name: '索引列表-城市选择页-宫格式-1',
+						key: 'city-select-1'
+					}, {
+						name: '索引列表-城市选择页-列表式-2',
+						key: 'city-select-2'
+					}, {
+						name: '索引列表-通讯录页-列表式-1',
+						key: 'contact-select-1/contact-select-1'
+					}],
 				}, {
 					// 单元格
 					id: "ceil",
@@ -371,13 +386,13 @@
 					}, {
 						name: '意见反馈表单1',
 						key: 'feedback'
-					},{
+					}, {
 						name: '意见反馈表单2',
 						key: 'feedback2'
 					}, {
 						name: '账号与安全 Switch切换-1',
 						key: 'switch-1'
-					},],
+					}, ],
 				}, {
 					// 单选框
 					id: "radio",
@@ -584,10 +599,13 @@
 					}, {
 						name: '消息通知列表3',
 						key: 'message-list-3'
+					},{
+						name: '银行卡列表-1',
+						key: 'bank-list-1'
 					}, {
 						name: '关于我们1',
 						key: 'about-us-1'
-					},],
+					}, ],
 				}, ],
 			};
 		},

@@ -774,130 +774,131 @@
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/projectUI/base-tab-line-1",
+			"style": {
+				"navigationBarTitleText": "下划线与文字等宽的Tab",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/goos-list2",
+			"style": {
+				"navigationBarTitleText": "商品列表2",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/form-temp-3",
+			"style": {
+				"navigationBarTitleText": "充值表单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/waterfall-2",
+			"style": {
+				"navigationBarTitleText": "瀑布流2",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/waterfall-3",
+			"style": {
+				"navigationBarTitleText": "瀑布流3",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/scan-1",
+			"style": {
+				"navigationBarTitleText": "扫码界面1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/message-list-1",
+			"style": {
+				"navigationBarTitleText": "消息通知列表1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/message-list-2",
+			"style": {
+				"navigationBarTitleText": "消息通知列表2",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/message-list-3",
+			"style": {
+				"navigationBarTitleText": "消息通知列表3",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/card-list",
+			"style": {
+				"navigationBarTitleText": "卡片列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈表单1",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/projectUI/feedback2",
+			"style": {
+				"navigationBarTitleText": "意见反馈表单2",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/projectUI/about-us-1",
+			"style": {
+				"navigationBarTitleText": "关于我们1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/switch-1",
+			"style": {
+				"navigationBarTitleText": "账号与安全 Switch切换-1",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/projectUI/city-select-1",
+			"style": {
+				"navigationBarTitleText": "索引列表-城市选择页-宫格式-1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/city-select-2",
+			"style": {
+				"navigationBarTitleText": "索引列表-城市选择页-列表式-2",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/contact-select-1/contact-select-1",
+			"style": {
+				"navigationBarTitleText": "索引列表-通讯录页-列表式-1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/projectUI/bank-list-1",
+			"style": {
+				"navigationBarTitleText": "银行卡列表-自动换色-1",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	    ,{
-            "path" : "pages/projectUI/base-tab-line-1",
-            "style" :
-            {
-                "navigationBarTitleText": "下划线与文字等宽的Tab",
-                "enablePullDownRefresh": false
-            }
-
-        }
-        ,{
-            "path" : "pages/projectUI/goos-list2",
-            "style" :
-            {
-                "navigationBarTitleText": "商品列表2",
-                "enablePullDownRefresh": false
-            }
-
-        }
-        ,{
-            "path" : "pages/projectUI/form-temp-3",
-            "style" :
-            {
-                "navigationBarTitleText": "充值表单",
-                "enablePullDownRefresh": false
-            }
-
-        }
-        ,{
-            "path" : "pages/projectUI/waterfall-2",
-            "style" :
-            {
-                "navigationBarTitleText": "瀑布流2",
-                "enablePullDownRefresh": false
-            }
-
-        }
-        ,{
-            "path" : "pages/projectUI/waterfall-3",
-            "style" :
-            {
-                "navigationBarTitleText": "瀑布流3",
-                "enablePullDownRefresh": false
-            }
-
-        }
-        ,{
-            "path" : "pages/projectUI/scan-1",
-            "style" :
-            {
-                "navigationBarTitleText": "扫码界面1",
-                "enablePullDownRefresh": false
-            }
-
-        }
-        ,{
-            "path" : "pages/projectUI/message-list-1",
-            "style" :
-            {
-                "navigationBarTitleText": "消息通知列表1",
-                "enablePullDownRefresh": false
-            }
-
-        }
-		,{
-		    "path" : "pages/projectUI/message-list-2",
-		    "style" :
-		    {
-		        "navigationBarTitleText": "消息通知列表2",
-		        "enablePullDownRefresh": false
-		    }
-
-		}
-		,{
-		    "path" : "pages/projectUI/message-list-3",
-		    "style" :
-		    {
-		        "navigationBarTitleText": "消息通知列表3",
-		        "enablePullDownRefresh": false
-		    }
-
-		}
-        ,{
-            "path" : "pages/projectUI/card-list",
-            "style" :
-            {
-                "navigationBarTitleText": "卡片列表",
-                "enablePullDownRefresh": false
-            }
-
-        },{
-            "path" : "pages/projectUI/feedback",
-            "style" :
-            {
-                "navigationBarTitleText": "意见反馈表单1",
-                "enablePullDownRefresh": false
-            }
-        },{
-            "path" : "pages/projectUI/feedback2",
-            "style" :
-            {
-                "navigationBarTitleText": "意见反馈表单2",
-                "enablePullDownRefresh": false
-            }
-        }
-        ,{
-            "path" : "pages/projectUI/about-us-1",
-            "style" :
-            {
-                "navigationBarTitleText": "关于我们1",
-                "enablePullDownRefresh": false
-            }
-
-        }
-        ,{
-            "path" : "pages/projectUI/switch-1",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "账号与安全 Switch切换-1",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+	],
 	"subPackages": [{
 			"root": "pages/API",
 			"pages": [{
